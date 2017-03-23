@@ -18,7 +18,8 @@ this scafold project based on [PHP OAuth 2.0 Server for Laravel] (https://github
 - configure database setting in ".env" file.
 - then run  " ``` php artisan migrate or php artisan migrate:reset ``` " .
 - run " ```php artisan db:seed ``` " to add test client and user.
-- run ```php artisan vendor:publish``` to publish this package configuration .
+- run ```php artisan vendor:publish``` to publish this package configuration.
+- configure grant setting in "config/oauth2.php" file
 - to test the server run   ``` php artisan serve ``` .
 
 ## Note
