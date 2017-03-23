@@ -12,7 +12,7 @@
 this scafold project based on [PHP OAuth 2.0 Server for Laravel]
 
 - clone this project
-   ``` git clone https://github.com/mshanak/Laravel5-oauth2-server.git foldername ```.
+   ``` git clone git@github.com:chjw8016/laravel5-oauth2-server.git ```.
 - tell composer to download the required libraries
   ```composer update ```.
 - configure database setting in ".env" file.
