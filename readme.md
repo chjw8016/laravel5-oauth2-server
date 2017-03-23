@@ -18,7 +18,7 @@ this scafold project based on [PHP OAuth 2.0 Server for Laravel]
 - configure database setting in ".env" file.
 - then run  " ``` php artisan migrate or php artisan migrate:reset ``` " .
 - run " ```php artisan db:seed ``` " to add test client and user.
-- to test the server run   ``` php artisan serve ```  , then in REST Client ( eg. postman ) , make a POST request  to ( http://localhost:8000/oauth/access_token ).
+- to test the server run   ``` php artisan serve ``` .
 
 ## Note
 when using WAMP or work in linux , you need the change the project folder Owner or the folder permition ,you can use ```chmod -R 777 * ``` ( in Development ONLY )
